@@ -1,0 +1,27 @@
+{
+  "name": "typedoc-plugin-module-wide-comments",
+  "version": "0.0.1",
+  "description": "Typedoc plugin which allow write module-wide comments withouth explicitly defined @packageDocumentation tag",
+  "author": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "typedoc",
+    "plugin",
+    "typedocplugin"
+  ],
+  "dependencies": {
+    "typedoc": "^0.16.9"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "typedoc": "^0.16.9",
+    "typescript": "^3.7.5"
+  }
+}
