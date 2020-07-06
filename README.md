@@ -32,4 +32,7 @@ const alert = (value, { showCloseLink, alertType }) => {
 export default alert
 ```
 
-And this comment will be displayed at the top of generated TypeDoc module page.
+And this comment 
+> Here's alert module description.
+
+will be displayed at the top of generated TypeDoc module page.
