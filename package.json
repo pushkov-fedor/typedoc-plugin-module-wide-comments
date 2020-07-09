@@ -1,7 +1,7 @@
 {
   "name": "typedoc-plugin-module-wide-comments",
-  "version": "1.0.2",
-  "description": "Typedoc plugin which allows to write module-wide comments withouth explicitly defined @packageDocumentation tag",
+  "version": "1.0.2.1",
+  "description": "Typedoc plugin which allows to write module-wide comments without explicitly defined @packageDocumentation tag",
   "author": "",
   "license": "MIT",
   "main": "dist/index.js",
