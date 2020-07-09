@@ -1,5 +1,5 @@
 # typedoc-plugin-module-wide-comments
-###Plugin
+### Plugin
 A plugin for [TypeDoc](https://typedoc.org/)
 
 This plugin allows you to add module comments without the need to use @packageDocumentation tag.
