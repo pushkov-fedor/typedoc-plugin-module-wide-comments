@@ -17,7 +17,7 @@ export function load({application}: PluginHost) {
     if (!rawComment) {
       return
     }
-    /** If comment was added (e.g. for function, constants etc) - do nothing , otherwise (for modules) add parsed comment. */
+    /** If comment was added (e.g. for function, constants etc) - do nothing, otherwise (for modules without @packageDocumentation tag, which comment property is empty) add parsed comment. */
     reflection.comment = !reflection.comment ? parseComment(rawComment) : reflection.comment
   })
 }
